@@ -51,8 +51,7 @@ for (let i = 0; i < menuItemList.length; i++) {
   menuItem.style.fontSize = '18px';
   menuItem.style.lineHeight = '1.3';
   menuItem.style.cursor = 'pointer';
-  menuItemList[0];
-  console.log('menuItemList: ', menuItemList);
+
   menuItem.innerText = menuItemList[i];
   // menuItemList[i]=toUpperCase()!!!
   addEl(menuItem, menuList);
